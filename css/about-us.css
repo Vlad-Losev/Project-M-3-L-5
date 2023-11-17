@@ -1,0 +1,184 @@
+.about-us {
+  margin-bottom: 70px;
+}
+
+.about-us__wrapper {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.about-us__title {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.about-us__t {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.about-us__t::before {
+  content: "";
+  display: inline-block;
+  width: 43px;
+  height: 2px;
+  background-image: url(/img/about-us-strip.svg);
+  margin-right: 23px;
+  margin-bottom: 6px;
+}
+
+.about-us__t::after {
+  content: "";
+  display: inline-block;
+  width: 43px;
+  height: 2px;
+  background-image: url(/img/about-us-strip.svg);
+  margin-left: 23px;
+  margin-bottom: 6px;
+}
+
+.about-as__text_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.about-as__text {
+  max-width: 724px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.about-as__circle {
+  display: flex;
+  justify-content: center;
+}
+
+.about-us__list {
+  max-width: 884px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us__item {
+  max-width: 196px;
+  max-height: 195px;
+}
+
+.about-us__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.cirle {
+  width: 122px;
+  height: 122px;
+  background-color: #23C7EC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-size: 57px;
+  font-weight: 500;
+  line-height: 100%;
+  border-radius: 50%;
+}
+
+.about-us__item__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 140.625%;
+}
+
+@media (max-width: 1024px) {
+  .about-us__title {
+    font-size: 32px;
+    margin-bottom: 23px;
+  }
+
+  .about-us__t {
+    font-size: 20px;
+    margin-bottom: 33px;
+  }
+
+  .about-us__t::before {
+    width: 40px;
+  }
+
+  .about-us__t::after {
+    width: 40px;
+  }
+
+  .about-as__text {
+    max-width: 666px;
+    font-size: 16px;
+  }
+
+  .about-us__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-us__item {
+    max-width: 167px;
+    max-height: 182px;
+  }
+
+  .about-us__link {
+    gap: 24px;
+  }
+
+  .cirle {
+    width: 104px;
+    height: 104px;
+    font-size: 52px;
+  }
+
+  .about-us__item__text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 550px) {
+  .about-us {
+    margin-bottom: 60px;
+  }
+
+  .about-us__title {
+    font-size: 20px;
+    padding-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  .about-us__t {
+    font-size: 16px;
+    margin-bottom: 26px;
+  }
+
+  .about-us__t::before {
+    width: 20px;
+    height: 1px;
+  }
+
+  .about-us__t::after {
+    width: 20px;
+    height: 1px;
+  }
+
+  .about-us__list {
+    gap: 40px;
+  }
+
+  .about-as__text_wrapper {
+    margin-bottom: 40px;
+  }
+
+  .about-as__text {
+    font-size: 12px;
+  }
+}
